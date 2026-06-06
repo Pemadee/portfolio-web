@@ -1,0 +1,18 @@
+{
+  "Navbar": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "education": "การศึกษา",
+    "skill": "ทักษะ",
+    "work": "ผลงาน",
+    "contact": "ติดต่อ"
+  },
+  "Hero": {
+    "greeting": "สวัสดีครับ",
+    "iam": "ผม",
+    "first_name": "คุณภัทร",
+    "last_name": "ทับผึ้ง",
+    "role": "Full-Stack Developer",
+    "explore_btn": "ดูผลงาน →"
+  }
+}

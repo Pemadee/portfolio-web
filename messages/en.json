@@ -1,0 +1,18 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "skill": "Skill",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Hello,",
+    "iam": "I am",
+    "first_name": "Khunnapat",
+    "last_name": "Thubphung",
+    "role": "Full-Stack Developer",
+    "explore_btn": "Explore My Projects →"
+  }
+}
