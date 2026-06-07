@@ -1,5 +1,5 @@
 import Hero from "@/components/sections/Hero";
-
+import About from "@/components/sections/About";
 export default function Home() {
   return (
     // Max-width 6xl คือตัวช่วยให้เนื้อหาไม่ขยายไปชิดขอบจอใหญ่ๆ จัดให้อยู่ตรงกลาง
@@ -7,11 +7,9 @@ export default function Home() {
       
       {/* เรียกใช้ Hero Component */}
       <Hero />
-
+      <About />
       {/* Sections อื่นๆ สร้างไว้เป็น Dummy รอการตกแต่งเพิ่มและแยกไฟล์ในอนาคต */}
-      <section id="about" className="min-h-screen py-20 border-b border-neutral-100">
-        <h2 className="text-3xl font-bold">About Me</h2>
-      </section>
+      
 
       <section id="education" className="min-h-screen py-20 border-b border-neutral-100">
         <h2 className="text-3xl font-bold">Education</h2>

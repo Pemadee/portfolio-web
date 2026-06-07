@@ -4,8 +4,12 @@
     "about": "About",
     "education": "Education",
     "skill": "Skill",
-    "work": "Work",
+    "experience": "Experience",
     "contact": "Contact"
+  },
+  "Experience": {
+    "prof_exp": "Professional Experience",
+    "featured_proj": "Featured Projects"
   },
   "Hero": {
     "greeting": "Hello,",
@@ -14,5 +18,12 @@
     "last_name": "Thubphung",
     "role": "Full-Stack Developer",
     "explore_btn": "Explore My Projects →"
+  },
+  "About": {
+    "heading": "About Me",
+    "p1": "Hello! I am <highlight>Khunnapat Thubphung (Pe)</highlight>, a Computer Engineering graduate (2nd Class Honors) from Naresuan University. I am a passionate problem solver dedicated to building efficient and scalable software.",
+    "p2": "My experience spans end-to-end application development. I have designed robust backend APIs and managed databases using technologies such as <highlight>FastAPI</highlight> and <highlight>PostgreSQL</highlight>, and built responsive mobile interfaces using <highlight>React Native</highlight>. Beyond writing code, I have hands-on experience handling deployments on <highlight>Google Cloud Platform</highlight> using <highlight>Docker</highlight>, and I am highly interested in integrating <highlight>Machine Learning</highlight> models into practical systems to solve real-world problems.",
+    "p3": "I am constantly open to learning and updating my technical stack. Currently, I am diving deep into backend development with <highlight>Golang</highlight>, focusing on <highlight>Clean Architecture</highlight> to ensure my code is both testable and highly maintainable.",
+    "p4": "My goal is to leverage my engineering skills, analytical thinking, and commitment to industry best practices to build products that excel in both system architecture and real-world usability."
   }
 }
