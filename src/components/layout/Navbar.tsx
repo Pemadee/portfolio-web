@@ -29,11 +29,10 @@ const navLinks = [
     { name: t('home'), href: '#home' },
     { name: t('about'), href: '#about' },
     { 
-      name: t('experience'), 
-      href: '#experience',
+      name: t('experience'), href: '#experience',
       subLinks: [
-        { name: 'Professional Experience', href: '#professional-experience' },
-        { name: 'Featured Projects', href: '#featured-projects' }
+        { name: t('prof_exp'), href: '#experience' },
+        { name: t('featured_proj'), href: '#featured-projects' }
       ]
     },
     { name: t('skill'), href: '#skill' },

@@ -1,5 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
+import Experience from "@/components/sections/Experience";
+import ProjectCard from "@/components/sections/ProjectCard";
 export default function Home() {
   return (
     // Max-width 6xl คือตัวช่วยให้เนื้อหาไม่ขยายไปชิดขอบจอใหญ่ๆ จัดให้อยู่ตรงกลาง
@@ -8,6 +10,8 @@ export default function Home() {
       {/* เรียกใช้ Hero Component */}
       <Hero />
       <About />
+      <Experience/>
+      <ProjectCard/>
       {/* Sections อื่นๆ สร้างไว้เป็น Dummy รอการตกแต่งเพิ่มและแยกไฟล์ในอนาคต */}
       
 
@@ -19,9 +23,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold">Skills</h2>
       </section>
 
-      <section id="work" className="min-h-screen py-20 border-b border-neutral-100">
-        <h2 className="text-3xl font-bold">Work Experience</h2>
-      </section>
+      
 
       <section id="contact" className="min-h-[50vh] py-20">
         <h2 className="text-3xl font-bold">Contact</h2>

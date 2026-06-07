@@ -5,11 +5,56 @@
     "education": "Education",
     "skill": "Skill",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "prof_exp": "Professional Experience",
+    "featured_proj": "Featured Projects"
   },
   "Experience": {
     "prof_exp": "Professional Experience",
-    "featured_proj": "Featured Projects"
+    "featured_proj": "Featured Projects",
+    "jobs": [
+      {
+        "role": "Backend Developer Intern",
+        "company": "BOTNOI Consulting Co., Ltd.",
+        "duration": "April - June 2025",
+        "description": "Built a Python (FastAPI) backend synchronizing data across LINE, Google Calendar, and Sheets. Implemented OAuth 2.0 with a background scheduler for token management, and deployed the app on Google Cloud Platform (GCP) using Docker.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "OAuth 2.0",
+          "GCP",
+          "Docker",
+          "API Integration"
+        ]
+      },
+      {
+        "role": "Full Stack Developer Intern",
+        "company": "Graduate School, Naresuan University",
+        "duration": "June 2024",
+        "description": "Developed a Django warehouse system with RBAC and LINE Notify, alongside a FastAPI and PyThaiNLP document generator. Configured a simulated production infrastructure on Ubuntu using Docker Compose and Nginx.",
+        "tags": [
+          "Python",
+          "Django",
+          "FastAPI",
+          "Docker Compose",
+          "Nginx",
+          "RBAC"
+        ]
+      },
+      {
+        "role": "Backend Developer Intern",
+        "company": "Graduate School, Naresuan University",
+        "duration": "November - December 2023",
+        "description": "Initiated backend development by implementing core functionalities, user authentication, and an RBAC system using Django, with data managed via SQLite.",
+        "tags": [
+          "Python",
+          "Django",
+          "SQLite",
+          "Authentication",
+          "RBAC"
+        ]
+      }
+    ]
   },
   "Hero": {
     "greeting": "Hello,",
@@ -25,5 +70,20 @@
     "p2": "My experience spans end-to-end application development. I have designed robust backend APIs and managed databases using technologies such as <highlight>FastAPI</highlight> and <highlight>PostgreSQL</highlight>, and built responsive mobile interfaces using <highlight>React Native</highlight>. Beyond writing code, I have hands-on experience handling deployments on <highlight>Google Cloud Platform</highlight> using <highlight>Docker</highlight>, and I am highly interested in integrating <highlight>Machine Learning</highlight> models into practical systems to solve real-world problems.",
     "p3": "I am constantly open to learning and updating my technical stack. Currently, I am diving deep into backend development with <highlight>Golang</highlight>, focusing on <highlight>Clean Architecture</highlight> to ensure my code is both testable and highly maintainable.",
     "p4": "My goal is to leverage my engineering skills, analytical thinking, and commitment to industry best practices to build products that excel in both system architecture and real-world usability."
+  },
+  "Projects": {
+    "section_title": "Featured Projects",
+    "items": [
+      {
+        "title": "Dog Breed Identification App",
+        "description": "Built a responsive mobile interface using React Native, integrated with an EfficientNet machine learning model to classify dog breeds.",
+        "tags": ["React Native", "Machine Learning", "EfficientNet"],
+        "media": [
+          { "type": "video", "url": "/videos/projects/Final.mp4" },
+          { "type": "image", "url": "/images/projects/Untitled design (1).png" },
+          { "type": "image", "url": "/images/projects/welcome.png" }
+        ]
+      }
+    ]
   }
 }

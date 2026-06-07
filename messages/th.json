@@ -5,11 +5,57 @@
     "education": "การศึกษา",
     "skill": "ทักษะ",
     "experience": "ประสบการณ์",
-    "contact": "ติดต่อ"
+    "contact": "ติดต่อ",
+    "prof_exp": "Professional Experience",
+    "featured_proj": "Featured Projects"
+
   },
   "Experience": {
-    "prof_exp": "ประสบการณ์ทำงาน",
-    "featured_proj": "ผลงาน"
+    "prof_exp": "Professional Experience",
+    "featured_proj": "Featured Projects",
+    "jobs": [
+      {
+        "role": "Backend Developer Intern",
+        "company": "บริษัท บอทน้อยคอนซัลติ้ง จำกัด",
+        "duration": "เมษายน - มิถุนายน 2025",
+        "description": "พัฒนาระบบ Backend ด้วย Python (FastAPI) เพื่อซิงก์ข้อมูลระหว่าง LINE, Google Calendar และ Sheets จัดการ Token ด้วย OAuth 2.0 และ Background Scheduler พร้อม Deploy ระบบบน Google Cloud Platform (GCP) ด้วย Docker",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "OAuth 2.0",
+          "GCP",
+          "Docker",
+          "API Integration"
+        ]
+      },
+      {
+        "role": "Full Stack Developer Intern",
+        "company": "บัณฑิตวิทยาลัย มหาวิทยาลัยนเรศวร",
+        "duration": "มิถุนายน 2024",
+        "description": "พัฒนาระบบจัดการคลังสินค้าด้วย Django พร้อมระบบ RBAC และ LINE Notify รวมถึงสร้าง API ออกเอกสารอัตโนมัติด้วย FastAPI และ PyThaiNLP และจำลอง Infrastructure การใช้งานจริงบน Ubuntu Server ด้วย Docker Compose และ Nginx",
+        "tags": [
+          "Python",
+          "Django",
+          "FastAPI",
+          "Docker Compose",
+          "Nginx",
+          "RBAC"
+        ]
+      },
+      {
+        "role": "Backend Developer Intern",
+        "company": "บัณฑิตวิทยาลัย มหาวิทยาลัยนเรศวร",
+        "duration": "พฤศจิกายน - ธันวาคม 2023",
+        "description": "เริ่มต้นพัฒนาระบบ Backend โดยสร้างฟังก์ชันการทำงานหลัก ระบบยืนยันตัวตน (Authentication) และระบบสิทธิ์ผู้ใช้งาน (RBAC) ด้วย Django และจัดการฐานข้อมูลด้วย SQLite",
+        "tags": [
+          "Python",
+          "Django",
+          "SQLite",
+          "Authentication",
+          "RBAC"
+        ]
+      }
+    ]
   },
   "Hero": {
     "greeting": "สวัสดีครับ",
@@ -25,5 +71,20 @@
     "p2": "ประสบการณ์ที่ผ่านมาของผมครอบคลุมการพัฒนาแอปพลิเคชันแบบ End-to-End ผมได้ออกแบบ Backend API ที่ทนทานและจัดการฐานข้อมูลโดยใช้เทคโนโลยี เช่น <highlight>FastAPI</highlight> และ <highlight>PostgreSQL</highlight> รวมถึงการพัฒนา Mobile Interface ด้วย <highlight>React Native</highlight> นอกเหนือจากการเขียนโค้ดแล้ว ผมยังมีประสบการณ์ในการจัดการ Deployment บน <highlight>Google Cloud Platform</highlight> ด้วย <highlight>Docker</highlight> และมีความสนใจอย่างมากในการนำโมเดล <highlight>Machine Learning</highlight> มาประยุกต์และเชื่อมต่อเข้าระบบเพื่อแก้ปัญหาในโลกจริง",
     "p3": "ผมเป็นคนที่เปิดรับและอัปเดตเทคโนโลยีใหม่ ๆ อยู่เสมอ ปัจจุบันผมกำลังเจาะลึกการพัฒนา Backend ด้วย <highlight>Golang</highlight> โดยยึดหลัก <highlight>Clean Architecture</highlight> เพื่อให้มั่นใจว่าโครงสร้างโค้ดที่ Testable และ Maintainable",
     "p4": "เป้าหมายของผมคือการนำทักษะทางวิศวกรรม ความคิดเชิงวิเคราะห์ และความมุ่งมั่นในการทำงานตามมาตรฐานอุตสาหกรรม มาสร้างโปรดักส์ที่ตอบโจทย์ทั้งในแง่ของสถาปัตยกรรมระบบและการใช้งานจริง"
+  },
+  "Projects": {
+    "section_title": "ผลงานที่โดดเด่น",
+    "items": [
+      {
+        "title": "Dog Breed Identification App",
+        "description": "พัฒนาแอปพลิเคชันมือถือด้วย React Native เชื่อมต่อกับโมเดล Machine Learning แบบ EfficientNet เพื่อจำแนกสายพันธุ์สุนัข",
+        "tags": ["React Native", "Machine Learning", "EfficientNet"],
+        "media": [
+          { "type": "video", "url": "/videos/projects/Final.mp4" },
+          { "type": "image", "url": "/images/projects/feature.png" },
+          { "type": "image", "url": "/images/projects/welcome.png" }
+        ]
+      }
+    ]
   }
 }
