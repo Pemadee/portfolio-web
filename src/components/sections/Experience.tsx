@@ -26,10 +26,11 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="w-full py-20 border-b border-neutral-100">
+    // py-10
+    <section id="experience" className="w-full py-10 border-b border-neutral-100">
       
       {/* Professional Experience Section */}
-      <div id="professional-experience" className="mb-24 pt-10">
+      <div className="mb-24 pt-10">
         <h2 className="mb-12 text-3xl font-bold tracking-tight text-neutral-900">
           {t('prof_exp')}
         </h2>

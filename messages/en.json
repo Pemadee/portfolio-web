@@ -42,7 +42,7 @@
         ]
       },
       {
-        "role": "Backend Developer Intern",
+        "role": "Full Stack Developer Intern",
         "company": "Graduate School, Naresuan University",
         "duration": "November - December 2023",
         "description": "Initiated backend development by implementing core functionalities, user authentication, and an RBAC system using Django, with data managed via SQLite.",
@@ -83,7 +83,127 @@
           { "type": "image", "url": "/images/projects/Untitled design (1).png" },
           { "type": "image", "url": "/images/projects/welcome.png" }
         ]
+      },
+      {
+        "title": "LINE & Google Calendar Sync System",
+        "description": "Developed a FastAPI backend with automated OAuth 2.0 token management to synchronize data across LINE Chatbot, Google Calendar, and Google Sheets, deployed on GCP via Docker.",
+        "tags": ["Python", "FastAPI", "Google Cloud Platform", "Docker", "OAuth 2.0"],
+        "media": [
+          { "type": "image", "url": "/images/projects/7.jpg" },
+          { "type": "image", "url": "/images/projects/8.jpg" }
+        ]
+      },
+      {
+        "title": "aiHit Company Data Dashboard",
+        "description": "Built a responsive web dashboard using React and Material UI to visualize and manage a dataset of 10,000 UK companies, integrated with a FastAPI and SQLite backend.",
+        "tags": ["React", "Material UI", "FastAPI", "SQLite"],
+        "media": [          
+          { "type": "image", "url": "/images/projects/3.jpg" },
+          { "type": "image", "url": "/images/projects/4.jpg" },
+          { "type": "image", "url": "/images/projects/5.jpg" },
+          { "type": "image", "url": "/images/projects/6.jpg" },
+          { "type": "image", "url": "/images/projects/2.jpg" }
+        ]
+      },
+      {
+        "title": "Autonomous Line-Following Robot",
+        "description": "Engineered an autonomous line-tracking robot using Arduino UNO and L298N motor drivers. Developed C++ control logic to process inputs from TCRT5000 infrared sensors for real-time trajectory calculation and movement adjustments.",
+        "tags": ["Arduino", "C++", "Robotics", "Hardware Integration"],
+        "media": [
+          { "type": "image", "url": "/images/projects/1.jpg" }
+        ]
+      },
+      {
+        "title": "User Management Web Application",
+        "description": "Developed a full-stack web application using Django, implementing secure user authentication, profile management, and dynamic form handling integrated with a SQL database.",
+        "tags": ["Python", "Django", "SQL", "Web Development"],
+        "media": [
+          { "type": "image", "url": "/images/projects/9.jpg" },
+          { "type": "image", "url": "/images/projects/10.jpg" },
+          { "type": "image", "url": "/images/projects/11.jpg" },
+          { "type": "image", "url": "/images/projects/12.jpg" }
+        ]
+      },
+      {
+        "title": "Google Cybersecurity Professional Certificate",
+        "description": "Completed a comprehensive 8-course program by Google, covering fundamentals of network security, risk management, incident response, and hands-on practice with Linux, SQL, and SIEM tools.",
+        "tags": ["Cybersecurity", "Network Security", "Incident Response", "SIEM"],
+        "media": [
+          { "type": "image", "url": "/images/projects/13.jpg" }
+        ]
+      },
+      {
+        "title": "P1 Startup Pitching Competition",
+        "description": "Pitched an interactive game concept designed to promote Thai tourism through cultural experiences. Developed a comprehensive business model, conducted market analysis, and presented the strategy to a panel of judges.",
+        "tags": ["Business Strategy", "Market Analysis", "Pitching", "Startup"],
+        "media": [
+          { "type": "image", "url": "/images/projects/14.jpg" }
+        ]
       }
     ]
+  },
+  "Skill": {
+    "section_title": "Skills",
+    "section_desc": "Technologies and tools I work with to build scalable solutions.",
+    "categories": [
+      {
+        "id": "programming",
+        "title": "Programming & Architecture",
+        "skills": ["Golang", "Python", "JavaScript", "TypeScript", "C++", "C#", "Java", "Clean Architecture"]
+      },
+      {
+        "id": "frontend",
+        "title": "Frontend & Mobile",
+        "skills": ["React", "React Native", "Next.js", "HTML/CSS/Bootstrap"]
+      },
+      {
+        "id": "backend",
+        "title": "Backend & Database",
+        "skills": ["FastAPI", "Node.js", "Django", "PostgreSQL", "MySQL", "MS SQL Server", "SQLite"]
+      },
+      {
+        "id": "data_ai",
+        "title": "Data Science & AI",
+        "skills": ["Machine Learning", "TensorFlow / Keras", "EfficientNet", "MATLAB"]
+      },
+      {
+        "id": "devops_tools",
+        "title": "DevOps, Tools & Automation",
+        "skills": ["Docker","Nginx", "Google Cloud Platform", "Git / GitHub", "Playwright"]
+      },
+      {
+        "id": "design_office",
+        "title": "Design & Office",
+        "skills": ["Figma", "Adobe Premiere Pro", "Adobe After Effects", "Canva", "MS Office", "Notion"]
+      },
+      {
+        "id": "languages",
+        "title": "Languages",
+        "skills": ["Thai (Native)", "English (Professional)"]
+      }
+    ]
+  },
+  "Education": {
+    "section_title": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Engineering in Computer Engineering",
+        "university": "Naresuan University",
+        "duration": "2022 - 2026",
+        "honors": "2nd Class Honors",
+        "gpa": "GPA 3.35",
+        "description": "Built a foundation in software engineering, computer architecture, and algorithm design. Applied theoretical knowledge to real-world scenarios through comprehensive projects involving full-stack web development, machine learning integration, and scalable system architecture."
+      }
+    ]
+  },
+  "Contact": {
+    "section_title": "Get In Touch",
+    "section_desc": "I'm currently looking for new opportunities. Whether you have a question, a project in mind, or just want to say hi, I'll try my best to get back to you!",
+    "email": "khunnapatt65@gmail.com",
+    "location": "Phitsanulok, Thailand",
+    "btn_email": "Say Hello",
+    "btn_resume": "Download Resume"
   }
+
+
 }

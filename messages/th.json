@@ -43,7 +43,7 @@
         ]
       },
       {
-        "role": "Backend Developer Intern",
+        "role": "Full Stack Developer Intern",
         "company": "บัณฑิตวิทยาลัย มหาวิทยาลัยนเรศวร",
         "duration": "พฤศจิกายน - ธันวาคม 2023",
         "description": "เริ่มต้นพัฒนาระบบ Backend โดยสร้างฟังก์ชันการทำงานหลัก ระบบยืนยันตัวตน (Authentication) และระบบสิทธิ์ผู้ใช้งาน (RBAC) ด้วย Django และจัดการฐานข้อมูลด้วย SQLite",
@@ -72,19 +72,142 @@
     "p3": "ผมเป็นคนที่เปิดรับและอัปเดตเทคโนโลยีใหม่ ๆ อยู่เสมอ ปัจจุบันผมกำลังเจาะลึกการพัฒนา Backend ด้วย <highlight>Golang</highlight> โดยยึดหลัก <highlight>Clean Architecture</highlight> เพื่อให้มั่นใจว่าโครงสร้างโค้ดที่ Testable และ Maintainable",
     "p4": "เป้าหมายของผมคือการนำทักษะทางวิศวกรรม ความคิดเชิงวิเคราะห์ และความมุ่งมั่นในการทำงานตามมาตรฐานอุตสาหกรรม มาสร้างโปรดักส์ที่ตอบโจทย์ทั้งในแง่ของสถาปัตยกรรมระบบและการใช้งานจริง"
   },
+
   "Projects": {
-    "section_title": "ผลงานที่โดดเด่น",
+    "section_title": "Featured Projects",
     "items": [
       {
-        "title": "Dog Breed Identification App",
-        "description": "พัฒนาแอปพลิเคชันมือถือด้วย React Native เชื่อมต่อกับโมเดล Machine Learning แบบ EfficientNet เพื่อจำแนกสายพันธุ์สุนัข",
+        "title": "แอปพลิเคชันจำแนกสายพันธุ์สุนัข",
+        "description": "พัฒนาส่วนติดต่อผู้ใช้งานบนมือถือด้วย React Native โดยเชื่อมต่อกับโมเดล Machine Learning แบบ EfficientNet เพื่อใช้ในการจำแนกสายพันธุ์สุนัข",
         "tags": ["React Native", "Machine Learning", "EfficientNet"],
         "media": [
           { "type": "video", "url": "/videos/projects/Final.mp4" },
-          { "type": "image", "url": "/images/projects/feature.png" },
+          { "type": "image", "url": "/images/projects/Untitled design (1).png" },
           { "type": "image", "url": "/images/projects/welcome.png" }
+        ]
+      },
+      {
+        "title": "ระบบซิงค์ข้อมูลระหว่าง LINE และ Google Calendar",
+        "description": "พัฒนาระบบหลังบ้านด้วย FastAPI พร้อมระบบจัดการโทเค็น OAuth 2.0 อัตโนมัติ เพื่อซิงค์ข้อมูลระหว่าง LINE Chatbot, Google Calendar และ Google Sheets โดยนำระบบไปใช้งานจริงบนระบบคลาวด์ GCP ผ่าน Docker",
+        "tags": ["Python", "FastAPI", "Google Cloud Platform", "Docker", "OAuth 2.0"],
+        "media": [
+          { "type": "image", "url": "/images/projects/7.jpg" },
+          { "type": "image", "url": "/images/projects/8.jpg" }
+        ]
+      },
+      {
+        "title": "แดชบอร์ดแสดงข้อมูลบริษัท aiHit",
+        "description": "สร้างเว็บแดชบอร์ดที่รองรับการแสดงผลทุกหน้าจอด้วย React และ Material UI เพื่อแสดงภาพรวมและจัดการชุดข้อมูลของบริษัทในสหราชอาณาจักรกว่า 10,000 แห่ง โดยเชื่อมต่อกับระบบหลังบ้านที่พัฒนาด้วย FastAPI และ SQLite",
+        "tags": ["React", "Material UI", "FastAPI", "SQLite"],
+        "media": [
+          { "type": "image", "url": "/images/projects/3.jpg" },
+          { "type": "image", "url": "/images/projects/4.jpg" },
+          { "type": "image", "url": "/images/projects/5.jpg" },
+          { "type": "image", "url": "/images/projects/6.jpg" },
+          { "type": "image", "url": "/images/projects/2.jpg" }
+        ]
+      },
+      {
+        "title": "หุ่นยนต์เดินตามเส้นอัตโนมัติ",
+        "description": "ประดิษฐ์หุ่นยนต์เดินตามเส้นอัตโนมัติโดยใช้ Arduino UNO และชุดขับมอเตอร์ L298N พัฒนาตรรกะการควบคุมด้วยภาษา C++ เพื่อประมวลผลข้อมูลจากเซ็นเซอร์อินฟราเรด TCRT5000 ในการคำนวณเส้นทางและปรับการเคลื่อนที่แบบเรียลไทม์",
+        "tags": ["Arduino", "C++", "Robotics", "Hardware Integration"],
+        "media": [
+          { "type": "image", "url": "/images/projects/1.jpg" }
+        ]
+      },
+      {
+        "title": "เว็บแอปพลิเคชันจัดการระบบผู้ใช้งาน",
+        "description": "พัฒนาเว็บแอปพลิเคชันแบบ Full-stack ด้วย Django โดยสร้างระบบยืนยันตัวตนผู้ใช้ที่ปลอดภัย ระบบจัดการโปรไฟล์ และการจัดการแบบฟอร์มแบบไดนามิกที่เชื่อมต่อกับฐานข้อมูล SQL",
+        "tags": ["Python", "Django", "SQL", "Web Development"],
+        "media": [
+          { "type": "image", "url": "/images/projects/9.jpg" },
+          { "type": "image", "url": "/images/projects/10.jpg" },
+          { "type": "image", "url": "/images/projects/11.jpg" },
+          { "type": "image", "url": "/images/projects/12.jpg" }
+        ]
+      },
+      {
+        "title": "ใบรับรอง Google Cybersecurity",
+        "description": "สำเร็จการศึกษาหลักสูตรครอบคลุม 8 รายวิชาจาก Google ซึ่งประกอบด้วยพื้นฐานความปลอดภัยของเครือข่าย การจัดการความเสี่ยง การรับมือกับเหตุการณ์ด้านความปลอดภัย และการฝึกปฏิบัติจริงด้วยการใช้ Linux, SQL และเครื่องมือ SIEM",
+        "tags": ["Cybersecurity", "Network Security", "Incident Response", "SIEM"],
+        "media": [
+          { "type": "image", "url": "/images/projects/13.jpg" }
+        ]
+      },
+      {
+        "title": "การแข่งขันนำเสนอแผนธุรกิจ P1 Startup",
+        "description": "นำเสนอแนวคิดเกมแบบอินเทอร์แอกทีฟเพื่อส่งเสริมการท่องเที่ยวไทยผ่านประสบการณ์ทางวัฒนธรรม โดยได้พัฒนาโมเดลธุรกิจ ทำการวิเคราะห์ตลาด และนำเสนอกลยุทธ์ต่อคณะกรรมการ",
+        "tags": ["Business Strategy", "Market Analysis", "Pitching", "Startup"],
+        "media": [
+          { "type": "image", "url": "/images/projects/14.jpg" }
         ]
       }
     ]
+  },
+
+
+  "Skill": {
+    "section_title": "ทักษะ",
+    "section_desc": "เทคโนโลยีและเครื่องมือที่ใช้ในการพัฒนาระบบและสร้าง Scalable Solutions",
+    "categories": [
+      {
+        "id": "programming",
+        "title": "Programming & Architecture",
+        "skills": ["Golang", "Python", "JavaScript", "TypeScript", "C++", "C#", "Java", "Clean Architecture"]
+      },
+      {
+        "id": "frontend",
+        "title": "Frontend & Mobile",
+        "skills": ["React", "React Native", "Next.js", "HTML/CSS/Bootstrap"]
+      },
+      {
+        "id": "backend",
+        "title": "Backend & Database",
+        "skills": ["FastAPI", "Node.js", "Django", "PostgreSQL", "MySQL", "MS SQL Server", "SQLite"]
+      },
+      {
+        "id": "data_ai",
+        "title": "Data Science & AI",
+        "skills": ["Machine Learning", "TensorFlow / Keras", "EfficientNet", "MATLAB"]
+      },
+      {
+        "id": "devops_tools",
+        "title": "DevOps, Tools & Automation",
+        "skills": ["Docker","Nginx", "Google Cloud Platform", "Git / GitHub", "Playwright"]
+      },
+      {
+        "id": "design_office",
+        "title": "Design & Office",
+        "skills": ["Figma", "Adobe Premiere Pro", "Adobe After Effects", "Canva", "MS Office", "Notion"]
+      },
+      {
+        "id": "languages",
+        "title": "Languages",
+        "skills": ["Thai (Native)", "English (Professional)"]
+      }
+    ]
+  },
+  "Education": {
+    "section_title": "การศึกษา",
+    "items": [
+      {
+        "degree": "วิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมคอมพิวเตอร์",
+        "university": "มหาวิทยาลัยนเรศวร",
+        "duration": "2565 - 2569",
+        "honors": "เกียรตินิยมอันดับ 2",
+        "gpa": "เกรดเฉลี่ย 3.35",
+        "description": "สร้างรากฐานด้านวิศวกรรมซอฟต์แวร์ สถาปัตยกรรมคอมพิวเตอร์ และการออกแบบอัลกอริทึม ประยุกต์ใช้ความรู้เชิงทฤษฎีกับสถานการณ์จริงผ่านโปรเจกต์ที่ครอบคลุมทั้งการพัฒนาเว็บแบบ Full-stack, การเชื่อมต่อกับโมเดล Machine Learning และการออกแบบสถาปัตยกรรมระบบที่รองรับการขยายตัว"
+      }
+    ]
+  },
+  "Contact": {
+    "section_title": "ช่องทางการติดต่อ",
+    "section_desc": "ผมกำลังเปิดรับโอกาสในการทำงานใหม่ๆ ไม่ว่าคุณจะมีคำถาม มีโปรเจกต์ที่น่าสนใจ หรือแค่ต้องการทักทาย สามารถติดต่อมาได้ตลอดเวลาครับ",
+    "email": "khunnapatt65@gmail.com",
+    "location": "พิษณุโลก, ประเทศไทย",
+    "btn_email": "ส่งอีเมล",
+    "btn_resume": "ดาวน์โหลดเรซูเม่"
   }
+
+
 }
